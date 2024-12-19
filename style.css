@@ -39,7 +39,7 @@ input[type=text] {
 .button:hover{
     background-color: #C147E9;
 }
-.text1 {
+.title {
     text-align: center;
     color: #F5F6FA;
     font-family: 'JetBrains Mono';
