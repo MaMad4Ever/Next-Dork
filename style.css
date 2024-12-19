@@ -17,6 +17,7 @@ input[type=text] {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    transition: 0.3s;
 }
 .button {
     background-color: #810CA8;
