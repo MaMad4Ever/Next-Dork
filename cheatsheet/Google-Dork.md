@@ -78,4 +78,3 @@ Putting an asterisk in a search tells Google ‘I don’t know what goes  here�
 ```
 site:*.com
 ```
-| متن | تکرار کلمات کلیدی را به یکباره یا یکی در یک زمان جستجو می کند. | `intext:"کلمه کلیدی"` |
