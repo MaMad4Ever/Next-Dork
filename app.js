@@ -11,6 +11,8 @@
             'site:' + domain + ' inurl:apidocs | inurl:api-docs | inurl:swagger | inurl:api-explorer',
             'site:' + domain + ' inurl:cmd | inurl:exec= | inurl:query= | inurl:code= | inurl:do= | inurl:run= | inurl:read= | inurl:ping= inurl:&',
             'site:' + domain + ' inurl:(unsubscribe|register|feedback|signup|join|contact|profile|user|comment|api|developer|affiliate|upload|mobile|upgrade|password)',
+            'site:' + domain + ' inurl:admin | Administrator | adm | login | l0gin | wp-loging',
+            'site:' + domain + ' intitle:"index of /admin" "admin"',
             'site:' + domain + ' intitle:"Welcome to Nginx"',
         ];
         
