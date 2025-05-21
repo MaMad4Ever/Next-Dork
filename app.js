@@ -2,8 +2,8 @@
         var domain = document.getElementById('domain').value.trim();
         var dorks = [
             'site:' + domain + ' inurl:&',
-            'site:' + domain + ' ext:php | ext:aspx | ext:asp | ext:jsp | ext:html | ext:htm',
-            'site:' + domain + ' ext:log | ext:txt | ext:conf | ext:cnf | ext:ini | ext:env | ext:sh | ext:bak | ext:backup | ext:swp | ext:old | ext:~ | ext:git | ext:svn | ext:htpasswd | ext:htaccess | ext:xml',
+            'site:' + domain + ' ext:php | ext:aspx| ext:asp| ext:jsp | ext:jspx | ext:do | ext:action| ext:html | ext:htm',
+            'site:' + domain + ' ext:txt | ext:conf | ext:cnf | ext:ini | ext:env | ext:sh | ext:backup | ext:swp | ext:old | ext:~ | ext:git | ext:svn | ext:htpasswd | ext:xml | ext:reg | ext:inf | ext:rdp | ext:cfg | ext:ora',
             'site:' + domain + ' inurl:url= | inurl:return= | inurl:next= | inurl:redir= inurl:http',
             'site:' + domain + ' inurl:http | inurl:url= | inurl:path= | inurl:dest= | inurl:html= | inurl:data= | inurl:domain= | inurl:page= inurl:&',
             'site:' + domain + ' inurl:config | inurl:env | inurl:setting | inurl:backup | inurl:admin | inurl:php',
