@@ -12,5 +12,8 @@ Next Dork designed to help security researchers and penetration testers automate
 ## Usage
 [Next Dork](https://mamad4ever.github.io/Next-Dork/)
 
-## Usage AI for google dorks
-[DorkSearch](https://dorksearch.com/)
+## Alternative tools google dorks
+- [DorkSearch](https://dorksearch.com/)
+- [verylazytech](https://verylazytech.github.io/)
+- [Lopseg](https://lopseg.com.br/google-dork)
+- [Maarouf](https://dorker.maarouf.io/)
