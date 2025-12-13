@@ -7,7 +7,7 @@
             'site:' + domain + ' inurl:return= | inurl:next= | inurl:redir= | inurl:http | inurl:url= | inurl:path= | inurl:dest= | inurl:html= | inurl:data= | inurl:domain= | inurl:page= inurl:&',
             'site:' + domain + ' ext:bkf | ext:bkp | ext:bak | ext:old | ext:backup | ext:tar | ext:gz | ext:zip',
             'site:' + domain + ' ext:doc | ext:docx | ext:odt | ext:pdf | ext:rtf | ext:sxw | ext:psw | ext:ppt | ext:pptx | ext:pps | ext:csv | ext:crt | ext:pfx | ext:xlsx | ext:xls',
-            'site:' + domain + ' inurl:apidocs | inurl:swagger | inurl:api-explorer | filetype:wsdl | filetype:WSDL | ext:svc | inurl:wsdl | Filetype: ?wsdl | inurl:asmx?wsdl | inurl:_vti_bin/sites.asmx?wsdl',
+            'site:' + domain + ' inurl:apidocs | inurl:swagger | inurl:api-explorer | inurl:api-docs | filetype:wsdl | filetype:WSDL | ext:svc | inurl:wsdl | Filetype: ?wsdl | inurl:asmx?wsdl | inurl:_vti_bin/sites.asmx?wsdl',
             'site:' + domain + ' inurl:cmd | inurl:exec= | inurl:query= | inurl:code= | inurl:do= | inurl:run= | inurl:read= | inurl:ping= inurl:&',
             'site:' + domain + ` site:dev.azure.com ${domain} | site:site:onedrive.live.com ${domain} | site:digitaloceanspaces.com ${domain} | site:sharepoint.com ${domain} | site:s3-external-1.amazonaws.com ${domain} | site:s3.dualstack.us-east-1.amazonaws.com ${domain} | site:dropbox.com/s ${domain} | site:box.com/s ${domain} | site:docs.google.com inurl:"/d/" ${domain} | site:s3.amazonaws.com ${domain} | site:blob.core.windows.net ${domain} | site:googleapis.com ${domain} | site:drive.google.com ${domain}`,
             'site:' + domain + ' intitle:"index of /admin" "admin"',
