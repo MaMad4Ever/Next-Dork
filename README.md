@@ -17,3 +17,4 @@ Next Dork designed to help security researchers and penetration testers automate
 - [verylazytech](https://verylazytech.github.io/)
 - [Lopseg](https://lopseg.com.br/google-dork)
 - [Maarouf](https://dorker.maarouf.io/)
+- [Dork King](https://dorkking.blindf.com/)
