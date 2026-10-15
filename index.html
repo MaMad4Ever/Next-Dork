@@ -1,16 +1,104 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Next Dork</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="app.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#121316">
+
+    <title>Next Dork — Recon Search Toolkit</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
 </head>
 <body>
-    <h1 class="title">Next Dork</h1>
-    <input type=text id="domain" placeholder="Enter a domain"></input>
-    </br>
-    <button class="button" id="myBtn" onclick="generateLinks()">Generate Links</button>
-    <div class="results" id="results"></div>
+    <main class="container">
+        <header class="header">
+            <a href="#" class="brand">Next<span>Dork</span><span class="cursor">_</span></a>
+            <span class="version">RECON TOOLKIT / v2.0</span>
+        </header>
+
+        <section class="hero">
+
+            <h1>Find what others <span>miss.</span></h1>
+
+            <p class="subtitle">
+                Generate targeted search queries for authorized
+                security research and reconnaissance.
+            </p>
+
+            <form id="searchForm" class="search-form">
+                <label for="domain">TARGET DOMAIN</label>
+
+                <div class="search-row">
+                    <input
+                        type="text"
+                        id="domain"
+                        placeholder="example.com"
+                        autocomplete="url"
+                        spellcheck="false"
+                        required
+                    >
+
+                    <button class="button" id="myBtn" type="submit">
+                        Generate <span>↗</span>
+                    </button>
+                </div>
+
+                <p class="hint">
+                    Enter a domain, such as example.com
+                </p>
+
+                <p id="error" class="error" role="alert" hidden></p>
+            </form>
+
+            <div class="engine-panel">
+                <span class="engine-label">SEARCH ENGINE</span>
+
+                <div class="engine-options">
+                    <label class="engine-option">
+                        <input type="radio" name="engine" value="google" checked>
+                        <span>Google</span>
+                    </label>
+
+                    <label class="engine-option">
+                        <input type="radio" name="engine" value="bing">
+                        <span>Bing</span>
+                    </label>
+
+                    <label class="engine-option">
+                        <input type="radio" name="engine" value="duckduckgo">
+                        <span>DuckDuckGo</span>
+                    </label>
+                </div>
+            </div>
+        </section>
+
+        <section class="results-section">
+            <div class="results-header">
+                <div>
+                    <h2>Search queries</h2>
+                    <p>Choose a query to open it in your selected engine.</p>
+                </div>
+
+                <span class="result-count" id="resultCount">0 QUERIES</span>
+            </div>
+
+            <div id="results" class="results">
+                <div class="empty-state">
+                    <span class="empty-icon">&gt;_</span>
+                    <p>Your queries will appear here.</p>
+                    <span>Enter a target domain to get started.</span>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <span>NEXT<span class="footer-accent">DORK</span></span>
+        </footer>
+    </main>
 </body>
 </html>
