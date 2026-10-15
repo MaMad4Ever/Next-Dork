@@ -59,7 +59,6 @@ input {
     animation: blink 1s steps(2, start) infinite;
 }
 
-.version,
 .engine-label,
 .result-count {
     font-size: 11px;
@@ -353,11 +352,6 @@ h1 span {
 
     .brand {
         font-size: 19px;
-    }
-
-    .version {
-        font-size: 9px;
-        text-align: right;
     }
 
     .hero {
